@@ -9,5 +9,7 @@ for i = 1 : N - 1
 end
 
 vectorOutput = sign(voutput);
+%histogram(vectorOutput)
+%axis padded
 % stem(vectorOutput,'filled','Color',"r")
 % axis padded
